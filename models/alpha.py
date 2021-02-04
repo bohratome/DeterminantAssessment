@@ -32,4 +32,4 @@ class Alpha(models.Model):
         except Exception as err:
             lg.warning('Other error occurred: {err}')
         else:
-            lg.warning('Success!')
+            lg.info('Success!')
